@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
+    "dotenv": "^6.0.0",
     "quagga": "^0.12.1"
   },
   "devDependencies": {},
