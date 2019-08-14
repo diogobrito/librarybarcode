@@ -10,5 +10,5 @@ app.get('/', function (req, res) {
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3000;
 
 app.listen(port, function () {
-  console.log('Example app listening on + 'port' + !');
+  console.log('Example app listening on ' + port + '!');
 });
